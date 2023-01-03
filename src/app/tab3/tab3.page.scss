@@ -1,0 +1,27 @@
+ion-header {
+    ion-toolbar {
+        --background: transparent !important;
+        padding: .2rem;
+
+        ion-back-button,
+        ion-icon {
+            color: var(--ion-color-primary-contrast);
+            font-size: 1.2rem;
+        }
+
+        .btns ion-icon {
+            margin: 0 .5rem;
+        }
+    }
+}
+
+
+ion-content {
+    --background: var(--ion-gradient-background);
+
+    .content {
+        margin: 5rem 2rem;
+        padding: 1rem;
+        color: var(--contrast);
+    }
+}
